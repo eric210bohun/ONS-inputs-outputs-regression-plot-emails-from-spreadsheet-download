@@ -96,5 +96,5 @@ email_eric <- email_eric %>% attachment("~/projects/agri_ss/five_API_outputs_plo
 smtp <- server(host = "smtp.gmail.com",
                port = 465,
                username = "oedipusatcolonussheffield@gmail.com",
-               password = "FD5neta6bhSGVhZ")
+               password = "XXXXXXXXX")
 smtp(email_eric, verbose = TRUE)
